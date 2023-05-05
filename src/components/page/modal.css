@@ -1,0 +1,63 @@
+.save-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.save-modal-content {
+  background-color: #fefefe;
+  border-radius: 4px;
+  color: #111;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.save-modal-content .modal-close-button-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.save-modal-content #modal-close-button {
+  font-size: 36px;
+  margin-left: 50px;
+  color: #111;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.save-modal-content .name-input-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.save-modal-content label {
+  margin-right: 10px;
+  position: relative;
+  top: 15%;
+}
+
+.save-modal-content input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #111;
+  height: 50px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  width: 100%;
+}
