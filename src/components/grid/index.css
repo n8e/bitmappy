@@ -1,0 +1,23 @@
+.grid-box-selected {
+  background-color: #111;
+  border: 1px solid #111;
+  width: 10px;
+  height: 10px;
+}
+
+.grid-box {
+  background-color: #fff;
+  border: 1px solid #b1b1b1;
+  width: 10px;
+  height: 10px;
+}
+
+.grid-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid-rows {
+  display: flex;
+  flex-direction: column;
+}

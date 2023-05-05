@@ -1,0 +1,63 @@
+.container .open-nav-cls,
+.container .close-nav-cls {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.open-nav-cls a:hover,
+.close-nav-cls a:hover {
+  color: #f1f1f1;
+}
+
+.open-nav-cls .closebtn,
+.close-nav-cls .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.open-nav-cls {
+  margin-left: 0;
+  width: 250px;
+}
+
+.close-nav-cls {
+  margin-left: 0;
+  width: 0;
+}
+
+.file-list {
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  font-style: italic;
+  padding: 7px 0;
+  margin-right: 25px;
+  outline: none;
+  overflow: hidden;
+  display: flex;
+  justify-content: right;
+}
+
+.file-list:hover {
+  color: #f1f1f1;
+  background-color: #777;
+}
